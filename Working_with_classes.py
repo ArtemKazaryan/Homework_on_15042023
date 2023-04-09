@@ -54,9 +54,9 @@ class Car:
         print(f'Цена, $: {self.price}')
         print()
 
-car = Car(car_model='Неопределена', year_of_manufacture='Неопределён',
-          manufacturer='Неопределён', engine_capacity='Неопределён',
-          car_color='Неопределён', price='Неопределена')
+car = Car(car_model='Не определена', year_of_manufacture='Не определён',
+          manufacturer='Не определён', engine_capacity='Не определён',
+          car_color='Не определён', price='Не определена')
 
 car.print_car_info()
 car.set_car_info()
@@ -109,9 +109,9 @@ class Book:
         print(f'Цена, руб.: {self.price}')
         print()
 
-book = Book(book_title='Неопределено', year_of_release='Неопределён',
-          publisher='Неопределён', genre='Неопределён',
-          author='Неопределён', price='Неопределена')
+book = Book(book_title='Не определено', year_of_release='Не определён',
+          publisher='Не определён', genre='Не определён',
+          author='Не определён', price='Не определена')
 
 book.print_book_info()
 book.set_book_info()
@@ -161,9 +161,9 @@ class Stadium:
         print(f'Вместимость, чел.: {self.capacity}')
         print()
 
-stadium = Stadium(stadium_name='Неопределено', opening_date='Неопределена',
-          country='Неопределена', city='Неопределён',
-          capacity='Неопределена')
+stadium = Stadium(stadium_name='Не определено', opening_date='Не определена',
+          country='Не определена', city='Не определён',
+          capacity='Не определена')
 
 stadium.print_stadium_info()
 stadium.set_stadium_info()
